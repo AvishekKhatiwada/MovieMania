@@ -1,0 +1,240 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.all-body{
+  padding: 10px;
+  background-color: #2D2D2D;
+  height: 100%;
+}
+.navbar{
+  background-color: #30353C;  
+  width: 100%;
+  border-radius: 5px;
+}
+#navbarBrand{
+  margin-left: 1rem;
+  cursor: pointer;
+}
+#navbarNav{
+  display: flex;
+  justify-content: end;
+}
+.navbar-nav{
+  margin-right: 1rem;
+}
+.nav-link, .navbar-brand{
+  text-decoration: none;
+  color: #FFF;
+  transition: transform 0.3s ease-in-out;
+}
+.navbar-brand:hover{
+  color: #FFF;
+}
+
+.nav-link:hover{
+  color: #FFF;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+.nav-link:visited{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.Front-logo{
+  width: 20%;
+  height: 15%;
+  /* mix-blend-mode: color-burn; */
+}
+.card{
+  padding: 4px;
+}
+.movie-lists{
+  padding: 5px 8px;
+}
+.movie-card{
+  padding: 4px;
+}
+.card-title{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.title-heading{
+  background-color: #503C3C;
+  color: rgb(247, 248, 249);
+  font-size: larger;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.All-body-details{
+  background-color: #000;
+}
+.details{
+  background-color: #A87C7C;
+  color: #0B212F; 
+}
+
+.title-heading-below{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.All-Ratings{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px 5px 0;
+}
+.Ratings{
+  background-color: #FFF2D8;
+  border-radius: 4px;
+  width: 7.5rem;
+  height: 7.5rem;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Rating-source{
+  font-family: Playfair Display;
+  font-weight: 900;
+}
+.Rating-value{
+  font-family: cursive;
+  font-size: xx-large;
+}
+.searchDiv{
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+.searchBar{   
+  margin-right: 2px;
+  width: 80%;
+  font-size: 25px;
+}
+.srchbtn{
+  width: 10%;
+}
+  /* Search Button */
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #73AB4B;
+  --color-outline: #ff145b80;
+  --color-shadow: #00000080;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+/* My CSS */
+
+.website-details p{
+  color: #FFF2D8;
+}
+.homeBtn{
+  text-decoration: none;
+}
